@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TEST page</title>
+</head>
+<body>
+    <h1>Storage TEST</h1>
+    alertがでます    
+
+    <script>
+        window.onload = function () {
+            if( ('sessionStorage' in window) && (window.sessionStorage !== null) ) {
+                // console.log("Available!");
+                alert("Available!");
+            } else {
+                // console.log("Not available...");
+                alert("Not available...");
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+    
